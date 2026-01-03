@@ -1,7 +1,6 @@
 Start
 Set totalMarks = 0
-Set i = 0
-
+Set i = 1
 While (i < n) do
     totalMarks = totalMarks + marks[i]
     i = i + 1
