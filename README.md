@@ -9,7 +9,7 @@ End While
 
 average = totalMarks / n
 
-If (average >= 50) then
+If (average >= 60) then
     performanceLevel = "Satisfactory Performance"
 Else
     performanceLevel = "Academic Support Required"
