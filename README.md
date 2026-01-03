@@ -1,2 +1,20 @@
-# student-performance-algorithm
-This repository contains the Student Academic Performance Analysis algorithm developed for Quality Assurance coursework. It demonstrates version control using GitHub branches and includes minor code modifications for loop and if-else structures.
+Start
+Set totalMarks = 0
+Set i = 0
+
+While (i < n) do
+    totalMarks = totalMarks + marks[i]
+    i = i + 1
+End While
+
+average = totalMarks / n
+
+If (average >= 50) then
+    performanceLevel = "Satisfactory Performance"
+Else
+    performanceLevel = "Academic Support Required"
+End If
+
+Print ("Average Score: " + average)
+Print ("Performance Status: " + performanceLevel)
+End
